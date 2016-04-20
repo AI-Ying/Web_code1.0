@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>维度-分享思维，改变世界</title>
+<link rel="stylesheet" href="../css/login-signin.css" type="text/css">
+</head>
+
+<body>
+<div>
+    <iframe src="head1.html" frameborder="0" width="1349px" height="150px" scrolling="no" class="background"> </iframe>
+</div> <br /><br /><br /><br /><br /><br /><br /><br />
+
+<div id="text" class="div_p">
+    <p>登  录</p>
+</div>
+<div >
+<form action="form_asc.asp" method="post" name="form" > 
+    <div align="center">
+         <table border="0" align="center">
+           <tr height="50px">
+             <td> 用户名： </td>
+             <td><input type="text" name="name" id="nickName" class="form_set" onfocus="nickNameFocus()" onblur="nickNameBlur()" placeholder="不能少于4个字符" /></td>
+             <td> <div id="nickName_prompt" style="width:260px;"> </div></td>
+             <td><input type="text" name="name" id="nickName" class="form_set" placeholder="邮箱"/></td>
+          </tr >
+          <tr height="50px">
+            <td> 密 码：</td>
+            <td><input type="password" name="password"id="password" class="form_set"/></td>
+         </tr>
+         <tr height="50px">
+            <td> 验证码：</td>
+            <td><input type="text" name="text"id="text" class="form_set"/></td>
+            <td><div> <img src="../images/img1.png" title="验证码" width="70px" height="25px"> </div> </td>
+         </tr>
+          <tr height="80px">
+            <td> <input type="checkbox" name="checkbox" id="checkbox">记住密码</td>
+            <td align="center" colspan="2"> <a href="#" target="_self">无法登录？</td>
+         </tr>
+         <tr id="text" height="100px;"> 
+          <td colspan="3" ><a href="../../home/html/FauX.html" target="_self" > <img src="../images/login2.png" width="200" height="45" /></a></td>
+         </tr>
+         </table>
+    </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div>
+        <input>
+    </div>
+</form>
+</div>
+<div>
+    <iframe src="../../home/html/foot.html" frameborder="0" width="1349px" height="300px" scrolling="no"> </iframe>
+</div>
+</body>
+</html>
